@@ -70,9 +70,3 @@ export function createSpinner(label: string) {
     },
   };
 }
-
-printPanel("dev-agent is alive 🤖", "Foundation layer ready");
-printSuccess("types.ts loaded");
-printSuccess("config.ts loaded");
-printSuccess("gemini.ts loaded");
-printSuccess("renderer.ts loaded");

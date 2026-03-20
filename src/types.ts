@@ -9,7 +9,7 @@ export interface GeminiMessage {
 
 export interface GeminiRequestBody {
   contents: GeminiMessage[];
-  systemInstruction?: { parts: [GeminiPart] };
+  system_instruction?: { parts: [GeminiPart] };
   generationConfig?: {
     temperature?: number;
     maxOutputTokens?: number;

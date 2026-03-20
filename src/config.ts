@@ -17,7 +17,7 @@ export const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/
 export function validateConfig(): void {
   if (!GEMINI_API_KEY) {
     console.error(
-      "\n❌  GEMINI_API_KEY is not set.\n" +
+      "\n GEMINI_API_KEY is not set.\n" +
         "   1. Get a free key → https://aistudio.google.com/app/apikey\n" +
         "   2. Add to .env:  GEMINI_API_KEY=your_key_here\n",
     );
